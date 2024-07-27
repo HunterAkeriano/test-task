@@ -1,0 +1,16 @@
+@import 'variables/variables';
+
+@import 'partials/main/header';
+@import 'partials/main/footer';
+
+@import 'partials/home/page-title';
+@import 'partials/home/card';
+@import 'partials/home/alert';
+
+.home {
+   margin-bottom: 50px;
+
+   &__info {
+      margin-top: 146px;
+   }
+}

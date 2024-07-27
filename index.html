@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+      <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+         href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;500;700&family=Open+Sans:wght@300&display=swap"
+         rel="stylesheet"
+      />
+      <link rel="stylesheet" href="/src/style/style.scss" />
+
+      <title>test_task</title>
+   </head>
+   <body>
+      <div class="wrapper">
+         {{> main/header }}
+
+         <main class="home">
+            <div class="container">
+               <div class="home__info">
+                  {{> home/title }}
+
+                  <div class="card-info"></div>
+
+                  {{> home/alert }}
+               </div>
+            </div>
+         </main>
+
+         {{> main/footer }}
+
+         {{> main/svg-icons }}
+      </div>
+
+      <script type="module" src="/src/js/main.js"></script>
+   </body>
+</html>

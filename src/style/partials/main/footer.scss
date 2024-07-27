@@ -1,0 +1,10 @@
+.footer {
+   background-color: $main-black;
+   color: $main-white;
+   padding: 10px 0 8px 0;
+
+   &__copyright {
+      font-size: 14px;
+      line-height: 27px;
+   }
+}
